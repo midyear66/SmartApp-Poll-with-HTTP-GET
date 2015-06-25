@@ -31,13 +31,7 @@ preferences {
 def snd_sms(){
     DEBUG("sending SMS")
     sendSms(phone, "https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group1?access_token=${state.accessToken}")
-    sendSms(phone, "https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group2?access_token=${state.accessToken}")
-    sendSms(phone, "https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group3?access_token=${state.accessToken}")
-    sendSms(phone, "https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group4?access_token=${state.accessToken}")
-	DEBUG("https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group1?access_token=${state.accessToken}")
-	DEBUG("https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group2?access_token=${state.accessToken}")
-    DEBUG("https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group3?access_token=${state.accessToken}")
-    DEBUG("https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group4?access_token=${state.accessToken}")
+    DEBUG("https://graph.api.smartthings.com/api/smartapps/installations/${app.id}/poll/group1?access_token=${state.accessToken}")
 }
 
 
